@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: deploy-app
-        image: lokiacr.azurecr.io/loki-nginx:27
+        image: stacksimplify/kubenginx:3.0.0
         resources:
         ports:
         - containerPort: 80
